@@ -1,12 +1,30 @@
 body {
     background-color: #464E54;
-}   
-
-.clock {
-    color: white;
-    font-size: 8em;
+    display: flex;
+    flex-direction: column;
     font-family: 'Exo 2', sans-serif;
+    min-height: 100vh;
+}  
+
+.clock, .hex-clock, .hex-code {
+    color: white;
+    flex: 1;
+    font-size: 8em;
     font-weight: normal;
     margin-top: 1em;
     text-align: center;
+}
+
+.footer {
+    color: white;
+    margin: auto;
+    padding: 1em;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
 }
