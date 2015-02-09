@@ -1,0 +1,12 @@
+body {
+    background-color: #464E54;
+}   
+
+.clock {
+    color: white;
+    font-size: 8em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: normal;
+    margin-top: 1em;
+    text-align: center;
+}
